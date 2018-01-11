@@ -1,0 +1,88 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    font-size: 90%;
+    font-family: sans-serif;
+
+    background: url("bg/finish.jpg") no-repeat 0 0;
+    background-size: cover;
+}
+
+.cup-standings {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    overflow: hidden;
+
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+td,
+th {
+    padding: 10px 15px;
+
+    text-align: left;
+
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    font-weight: normal;
+    font-size: 0.7em;
+    color: #999999;
+
+    background: #f5f5f5;
+}
+
+em {
+    font-size: 0.7em;
+    color: #999999;
+    font-style: normal;
+}
+
+td:nth-child(1) {
+    width: 1%;
+    padding-right: 0;
+}
+
+td:nth-child(3) {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+h1 {
+    margin: 0;
+    padding: 12px 15px;
+
+    font-weight: normal;
+    font-size: 1em;
+    color: white;
+
+    background: #0088cc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+em {
+    display: none;
+}
+tr:hover em {
+    display: inline;
+}
+tr:hover strong {
+    color: #0088cc;
+}
